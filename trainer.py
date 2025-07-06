@@ -64,7 +64,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Trainer')
     parser.add_argument('--exp_name', default="Default")
     parser.add_argument('--img_dir', default="/kaggle/input/ocular-disease-recognition-odir5k/preprocessed_images")
-    parser.add_argument('--label_dir', default=/kaggle/input/dataset/full_df.csv")
+    parser.add_argument('--label_dir', default="/kaggle/input/dataset/full_df.csv")
     parser.add_argument('--log_dir', default="./docs/logs")
     parser.add_argument('--logger_name', default="tensorboard")
     parser.add_argument('--logging_active', default=True, type=bool)
